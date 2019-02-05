@@ -1,0 +1,19 @@
+{
+  "shell": "basic-component.js",
+  "entrypoint": "index.html",
+  "npm": true,
+  "moduleResolution": "node",
+  "sources": ["basic-component.js", "package.json"],
+  "builds": [
+    {
+      "bundle": false,
+      "js": {
+        "minify": true,
+        "compile": "es2017",
+        "transformModulesToAmd": false
+      },
+      "addServiceWorker": false,
+      "addPushManifest": false
+    }
+  ]
+}
