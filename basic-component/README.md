@@ -1,3 +1,13 @@
 # how to run
 
-- rollup --watch --config
+## dev build
+
+```{bash}
+rollup --watch --config
+```
+
+## prod build
+
+```{bash}
+rollup --config rollup.prod.config.js
+```
