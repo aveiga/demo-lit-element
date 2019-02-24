@@ -3,11 +3,11 @@
 ## dev build
 
 ```{bash}
-rollup --watch --config
+rollup --watch --config --environment BUILD:dev
 ```
 
 ## prod build
 
 ```{bash}
-rollup --config rollup.prod.config.js
+rollup --config --environment BUILD:prod
 ```

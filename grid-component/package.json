@@ -1,6 +1,14 @@
 {
+  "name": "grid-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "postcss-import": "^12.0.1",
     "rollup-plugin-copy": "^0.2.3",
@@ -14,7 +22,7 @@
     "typescript": "^3.3.1"
   },
   "dependencies": {
-    "@material/mwc-button": "^0.3.6",
+    "@vaadin/vaadin-grid": "^5.3.2",
     "lit-element": "^2.0.1"
   }
 }

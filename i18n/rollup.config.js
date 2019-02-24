@@ -1,4 +1,15 @@
 import typescript from "rollup-plugin-typescript";
+import { terser } from "rollup-plugin-terser";
+
+let plugins = [
+  typescript({
+    target: "es2017"
+  })
+];
+
+if (process.env.BUILD === "prod") {
+  plugins = plugins.concat([terser()]);
+}
 
 module.exports = [
   {
@@ -7,10 +18,6 @@ module.exports = [
       file: "dist/i18n.js",
       format: "esm"
     },
-    plugins: [
-      typescript({
-        target: "es2017"
-      })
-    ]
+    plugins: plugins
   }
 ];

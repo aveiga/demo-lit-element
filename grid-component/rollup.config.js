@@ -9,7 +9,7 @@ import typescript from "rollup-plugin-typescript";
 
 let plugins = [
   typescript({
-    target: "es6"
+    target: "es2017"
   }),
   resolve(),
   postcss({
@@ -36,9 +36,9 @@ if (process.env.BUILD === "dev") {
 
 module.exports = [
   {
-    input: "basic-component.ts",
+    input: "grid-component.ts",
     output: {
-      file: "dist/basic-component.js",
+      file: "dist/grid-component.js",
       format: "esm"
     },
     plugins: plugins
