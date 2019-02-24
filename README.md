@@ -14,3 +14,8 @@ Demo project showcasing common UI use cases using LitElement
 - material web components ✅
 - theme material web components
 - vaadin-grid ✅
+- theme vaadin-grid
+- testing
+- demoing
+- generating test report
+- generating documentation
