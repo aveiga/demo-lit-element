@@ -16,10 +16,6 @@ export class BasicComponent extends LitElement {
   @property({ type: String })
   paragraphName = "paragraph";
 
-  constructor() {
-    super();
-  }
-
   render() {
     return html`
       <p>A paragraph with name: ${this.localize("ok")}</p>

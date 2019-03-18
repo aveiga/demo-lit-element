@@ -12,7 +12,7 @@ Demo project showcasing common UI use cases using LitElement
 - i18n (to be built using custom decorators) ✅
 - properties (on demo with observer) ✅ ⚠️ (observers are not a thing with LitElement, we need to watch for attribute changes instead, like in React)
 - material web components ✅
-- theme material web components
+- theme material web components ✅
 - vaadin-grid ✅
 - theme vaadin-grid
 - testing
